@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Exercício Tec-Web</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+
+    <div class="container">
+
+      <section class="dados-iniciais">
+      <label>Nome:</label>
+      <input type="text">
+      <label>E-mail:</label>
+      <input type="email">
+      <label>Data:</label>
+      <input type="date">
+      </section>
+
+      <section class="check">
+        <label>Em qual período você está?</label>
+        <input type="checkbox" disabled > 5°</input>
+        <input type="checkbox" checked > 6°</input>
+      </section>  
+
+      <section class="botoes" >
+        <button class="salvar" type="submit">Salvar</button>
+        <button class="limpar" type="reset">Limpar</button>
+      </section>  
+
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
